@@ -6,6 +6,7 @@
 #
 # WARNING! All changes made in this file will be lost!
 
+#Most of the class names are good enough. comments are not really needed.
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -33,7 +34,7 @@ class Link (object):
     
 
 
-
+#Buttons and stuff.
 class Ui_Dialog(object):
     
     pixelCount = [63, 46] 
