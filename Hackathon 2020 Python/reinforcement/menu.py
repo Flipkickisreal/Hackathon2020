@@ -36,10 +36,10 @@ class Link (object):
 
 class Ui_Dialog(object):
     
-    pixelCount = [48, 46] 
+    pixelCount = [63, 46] 
     
-    gridHeight = 910
-    gridWidth = 700
+    gridHeight = 1030
+    gridWidth = 824
     
     gridPosition = [10, 10]
     
@@ -126,7 +126,7 @@ class Ui_Dialog(object):
     
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(1023, 933)
+        Dialog.resize(1200, 1070)
         
         self.teamBoxWidget = QtWidgets.QWidget(Dialog)
         self.teamBoxWidget.setGeometry(QtCore.QRect(self.gridPosition[0] + self.gridWidth + 20, 400, 130, 120))
@@ -159,11 +159,11 @@ class Ui_Dialog(object):
         self.sendButton.clicked.connect(self.sendClicked)
         
         self.settButton = QtWidgets.QPushButton(Dialog)
-        self.settButton.setGeometry(QtCore.QRect(870, 460, 151, 471))
+        self.settButton.setGeometry(QtCore.QRect(1000, 525, 190, 510))
         self.settButton.setObjectName("settButton")
      
         self.viewButton = QtWidgets.QPushButton(Dialog)
-        self.viewButton.setGeometry(QtCore.QRect(870, 0, 151, 461))
+        self.viewButton.setGeometry(QtCore.QRect(1000, 10, 190, 510))
         self.viewButton.setObjectName("viewButton")
         
         self.Field = QtWidgets.QLabel(Dialog)
